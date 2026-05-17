@@ -1,0 +1,57 @@
+.celek{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+ 
+thead {
+    background-color: darkred;
+    color: white;
+}
+ 
+tbody {
+    background-color: lightgray;
+}
+ 
+tfoot {
+    background-color: black;
+    color: white;
+ 
+}
+ 
+thead,tbody,tfoot{
+    width:auto;
+}
+ 
+ 
+tr,td{
+    padding:20px;
+    text-align:center;
+ 
+}
+ 
+.cervena{
+    background-color:black;
+}
+ 
+.druha{
+    background-color:darkred;
+    color:white;
+}
+ 
+table {
+    border-collapse: collapse;
+}
+ 
+table {
+    border-collapse: collapse;
+    border: 2px solid white;
+ 
+td, th {
+    border: 1px solid #666;
+}
+}
+ 
+.special{
+    font-style: italic;
+}
